@@ -1,0 +1,56 @@
+.page-header{
+    display:flex;
+    width: 1200px; 
+    margin: 0 auto
+}
+.main-menu-list {
+    display: flex; 
+    justify-content: space-around;
+} 
+.main-menu {
+    flex-grow: 1; 
+}
+.main-menu-list{
+list-style-type: none;
+}
+.main-menu-list a {
+    text-decoration: none; 
+    color: rgb(27,51,146);
+    font-size: 25px;
+}
+.main-menu-list a:hover {
+    color: rgb(0, 0, 0); 
+    transition: 2s;
+}
+.page-footer {
+display: flex; 
+justify-content: space-around; 
+background-color: rgb(181,212,197);
+} 
+.footer-social {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.social-buttom {
+margin: 0 10px;
+}
+.slogan {
+    background-image:url(img/innsbruck1.png) ;
+    height: 550px; 
+    background-repeat: no-repeat;
+}
+.slogan h1 {
+    padding-top: 240px;
+    color:white;
+    font-size: 50px; 
+} 
+.container {
+    width:1200px ;
+    margin: 0 auto;
+} 
+.marketing {
+    background-image:url(img/skier.png);
+    background-repeat: no-repeat;
+    justify-content: ;
+}
